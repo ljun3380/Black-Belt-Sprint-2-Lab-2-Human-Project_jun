@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Create a new Human instance
-        Human person = new Human("John Doe", 30);
+        Human person = new Human("John Doe", 30, "Male");
 
         // Using the getter methods
         System.out.println("Name: " + person.getName() + ", Age: " + person.getAge());
